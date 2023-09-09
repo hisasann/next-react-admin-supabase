@@ -1,5 +1,5 @@
 {
-  "name": "next-react-admin",
+  "name": "next-react-admin-supabase",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@raphiniert/ra-data-postgrest": "^2.0.0-alpha.3",
     "@types/node": "20.5.9",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
@@ -17,7 +18,10 @@
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
     "postcss": "8.4.29",
+    "ra-data-json-server": "^4.14.0",
+    "ra-input-rich-text": "^4.14.0",
     "react": "18.2.0",
+    "react-admin": "^4.14.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
